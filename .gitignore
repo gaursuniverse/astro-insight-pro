@@ -1,0 +1,8 @@
+# IGNORE VENV/
+.venv/
+
+# IGNORE PYTHON CACHE
+__pycache__/
+
+# IGNORE MODEL
+models/
