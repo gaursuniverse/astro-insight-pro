@@ -199,7 +199,7 @@ In the VS Code terminal (make sure you're in the `astro-insight-pro` folder):
 
 ```bash
 # Create virtual environment
-python3.11 -m venv .venv
+python10 -m venv .venv
 
 # Activate the virtual environment
 source .venv/bin/activate
@@ -534,14 +534,6 @@ flowchart LR
     G --> H
     H --> I[JSON Response]
     I --> J[Display Result<br/>Streamlit UI]
-    
-    style A fill:#e1f5ff
-    style B fill:#fff4e1
-    style C fill:#ffe1f5
-    style D fill:#e1ffe1
-    style E fill:#ffe1e1
-    style G fill:#f5e1ff
-    style J fill:#fff4e1
 ```
 ### Singleton Pattern
 
@@ -558,13 +550,3 @@ This project uses:
 - **AI4Bharat IndicTrans2**: MIT License
 - **Streamlit**: Apache 2.0 License
 - **FastAPI**: MIT License
-
----
-
-## 🙏 Acknowledgments
-
-- **Microsoft** for Phi-3 Mini model
-- **AI4Bharat** for IndicTrans2 translation model
-- **Streamlit** for the amazing web framework
-- **FastAPI** for the high-performance backend framework
-- **HuggingFace** for hosting and distributing AI models
